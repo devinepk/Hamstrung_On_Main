@@ -38,7 +38,7 @@ function onSuccess() {
 
     let response = JSON.parse(apiRequest.responseText);
 
-    output_menu.innerHTML = response.menu_items;
+    output_menu.innerHTML = response.menu_items[0].description;
     }
     else {
       onError();
