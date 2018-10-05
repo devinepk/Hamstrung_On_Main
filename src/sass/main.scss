@@ -1,5 +1,5 @@
 // Insert varaible overrides
-// 
+//
 // $primary:       $blue !default;
 // $secondary:     $gray-600 !default;
 // $success:       $green !default;
@@ -8,5 +8,10 @@
 // $danger:        $red !default;
 // $light:         $gray-100 !default;
 // $dark:          $gray-800 !default;
+
+body {
+  font-family: 'Playfair Display', serif;
+  font-family: 'Cormorant Garamond', serif;
+}
 
 @import "../../node_modules/bootstrap/scss/bootstrap";

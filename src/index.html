@@ -8,19 +8,24 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Playfair+Display" rel="stylesheet">
 
     <title>Hamstrung On Main</title>
   </head>
   <body>
-    <div class="container mt-5 text-center">
+    <div class="container mt-5 mb-3 text-center">
     <h1>Hamstrung On main</h1>
 
     <!-- insert logo here -->
 
-    <h2>348 E. Main St., Lexington, KY</h2>
+    <h4 class="text-center mt-2">348 E. Main St., Lexington, KY</h4>
+
 
     <!-- hours could become a card? -->
-    <h3>Hours</h3>
+    <h2 class="text-center">Hours</h2>
+  </div>
+  <!-- make left align -->
+  <div #hours class="container text-center">
     <ul class="list-inline">
       <li>Monday: Closed</li>
       <li>Tuesday: Closed</li>
@@ -30,13 +35,12 @@
       <li>Saturday: 5pm-10pm (Dinner Only)</li>
       <li>Sunday: 11am-8pm (Brunch & Dinner)</li>
   </ul>
+</div>
 
-<!-- if the menu doesn't load -->
+  <h2 class="text-center">Menu</h2>
+  <!-- make each menu item into cards -->
 
-  <!-- <div id="error">
-      <div class="alert alert-info text-center"></div>
-  </div> -->
-  <h2>Menu</h2>
+  <div #menu class="container text-center">
     <ul class="list-inline">
       <li><div id="output_menu_1"></div></li>
       <li><div id="output_menu_2"></div></li>
@@ -49,21 +53,11 @@
       <li><div id="output_menu_9"></div></li>
       <li><div id="output_menu_10"></div></li>
     </ul>
+  </div>
 
   <div id="error"></div>
 
 
-
-    <!-- <h2>Menu</h2>
-    <ul class="list-inline">
-      <li>Monday: Closed</li>
-      <li>Tuesday: Closed</li>
-      <li>Wednesday: 5pm-10pm (Dinner Only)</li>
-      <li>Thursday: 5pm-10pm (Dinner Only)</li>
-      <li>Friday: 5pm-10pm (Dinner Only)</li>
-      <li>Saturday: 5pm-10pm (Dinner Only)</li>
-      <li>Sunday: 11am-8pm (Brunch & Dinner)</li>
-  </ul> -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
