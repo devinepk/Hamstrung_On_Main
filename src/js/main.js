@@ -38,7 +38,17 @@ function onSuccess() {
 
     let response = JSON.parse(apiRequest.responseText);
 
-    output_menu.innerHTML = response.menu_items[0].description;
+  
+    output_menu_1.innerHTML = response.menu_items[0].description;
+    output_menu_2.innerHTML = response.menu_items[1].description;
+    output_menu_3.innerHTML = response.menu_items[2].description;
+    output_menu_4.innerHTML = response.menu_items[3].description;
+    output_menu_5.innerHTML = response.menu_items[4].description;
+    output_menu_6.innerHTML = response.menu_items[5].description;
+    output_menu_7.innerHTML = response.menu_items[6].description;
+    output_menu_8.innerHTML = response.menu_items[7].description;
+    output_menu_9.innerHTML = response.menu_items[8].description;
+    output_menu_10.innerHTML = response.menu_items[9].description;
     }
     else {
       onError();
