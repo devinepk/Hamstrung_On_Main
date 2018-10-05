@@ -18,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/devinepk/Hamstrung_On_Main/issues"
   },
-  "homepage": "https://github.com/devinepk/Hamstrung_On_Main#readme"
+  "homepage": "https://github.com/devinepk/Hamstrung_On_Main#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "bootstrap": "^4.1.3",
+    "browser-sync": "^2.24.7",
+    "concurrently": "^4.0.1",
+    "cpx": "^1.5.0",
+    "sass": "^1.14.1"
+  }
 }
