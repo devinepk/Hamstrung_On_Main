@@ -2,6 +2,7 @@
 
 let apiRequest = new XMLHttpRequest();
 let output_menu = document.getElementById('output_menu');
+let output_error = document.getElementById('error');
 
 document.onreadystatechange = function () {
   if (document.readyState == "interactive") {
@@ -23,16 +24,18 @@ function onError() {
 
   if (apiRequest.responseText != 200) {
 
-    document.getElementById('error').innerHTML = "Our chefs are updating the menu.  Please check back soon.";
+    output_error.innerHTML = "Our chefs are updating the menu.  Please check back soon.";
   }
 }
 
 function onSuccess() {
-  //
-  // if (apiRequest.status == 200) {
-  //   (let i = 0; i < arr.length; i++) {
 
-  let response = JSON.parse(apiRequest.responseText);
+  if (apiRequest.status == 200) {
 
-  output_menu.innerHTM = response.menu_items;
+    let response = JSON.parse(apiRequest.responseText);
+
+    output_menu.innerHTML = response.menu_items;
+  } else {
+    onError();
+  }
 }
