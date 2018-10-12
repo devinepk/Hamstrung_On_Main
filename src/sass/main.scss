@@ -15,3 +15,43 @@
 // }
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+.jumbotron {
+  background-image: url("https://images.unsplash.com/photo-1529241160658-a8a2a0d86620?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a86520e41a1c9448ba14879f733bbe5e&auto=format&fit=crop&w=1350&q=80");
+}
+
+.behind {
+  background-color: #F45B69;
+
+}
+
+h1 {
+  font-family: 'Fjalla One', sans-serif;
+  color: #fffdd0;
+
+}
+
+nav {
+
+  background-color: #fffdd0;
+}
+
+h2, h3, h4, h5 {
+  font-family: 'Limelight', cursive;
+  color: #456990;
+}
+
+p {
+  font-family: 'KoHo', sans-serif
+
+}
+
+.card-body, .header,  {
+  background-color: #fffdd0;
+}
+
+.footer {
+
+  background-color: #456990;
+
+}

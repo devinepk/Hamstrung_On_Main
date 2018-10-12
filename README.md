@@ -58,4 +58,10 @@ I recommend github until you've got something specific to share with customers/c
     5. `git push origin master` - publishes your code to a github repository.
 4. In your Github repository you just pushed to, navigate to settings > GitHub Pages.  Select your source (master branch), click save, and the link to your hosted website will show up.
 
+## Customizations
+1. Color scheme: https://coolors.co/114b5f-028090-e4fde1-456990-f45b69
+2. Fonts: https://fonts.google.com/
+3. Icon: https://fontawesome.com
+4. Maps: https://www.google.com/maps
+
 # Happy Coding!
